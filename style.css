@@ -1,0 +1,87 @@
+
+  body {
+    font-family: sans-serif;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    background-color: #1DA1F2;
+    color: white;
+    padding: 20px;
+  }
+  
+  #newsfeed {
+    width: 500px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+  }
+  
+  .tweet {
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .tweet-author {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .tweet-text {
+    margin-bottom: 20px;
+  }
+  
+  #tweet-form {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  #tweet-form input[type="text"] {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  #tweet-form button[type="submit"] {
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .like-button {
+    background-color: white;
+    color: #1DA1F2;
+    border: 1px solid #1DA1F2;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .retweet-button {
+    background-color: white;
+    color: #1DA1F2;
+    border: 1px solid #1DA1F2;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .liked {
+    background-color: #93d7f7;
+  }
+  .delete-button{
+    
+    background-color: white;
+    color: #1DA1F2;
+    border: 1px solid #1DA1F2;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
